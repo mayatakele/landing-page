@@ -1,0 +1,48 @@
+.skills-section{
+ padding: 80px;
+    text-align: center;
+
+}
+.skills-section h2{
+     font-size: 30px;
+    margin-bottom: 20px;
+}
+.skills-section p{
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+.grid-skills{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
+    gap: 30px;
+
+
+}
+
+.skills-card h3{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.skills-icons{
+     display: grid;
+    grid-template-columns: repeat(3,50px);
+    justify-content: center;
+    gap: 30px;
+}
+
+.skills-icons img{
+width: 50px;
+}
+
+.skills-icons span{
+width: 70px;
+height: 70px;
+border-radius: 12px;
+background-color: snow;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+}

@@ -1,0 +1,41 @@
+.about-section{
+    padding: 80px;
+    text-align: center;
+  
+}
+.about-section h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.about-section p{
+    width: 70%;
+    /* font-size: 20px; */
+    margin: 0 auto;
+    line-height: 1.6;
+}
+.about-card{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    background-color: cadetblue;
+    color: snow;
+    padding: 20px;
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 17px;
+}
+.card-info h3{
+    font-size: 22px;
+}
+.card-info img{
+    width: 30px;
+}
+.about-card p{
+width: 90%;
+}
+

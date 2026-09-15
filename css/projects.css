@@ -1,0 +1,42 @@
+.projects-section {
+  padding: 80px;
+  text-align: center;
+}
+.projects-section h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.projects-section p {
+  width: 70%;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+.grid-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+.project-card {
+  position: relative;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 15px;
+  
+}
+
+.project-title {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: cadetblue;
+  color: white;
+  padding: 7px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+}
